@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KYContact_Example' do
+  pod 'KYContact', :path => '../'
+
+  target 'KYContact_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
