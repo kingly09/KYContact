@@ -73,6 +73,8 @@
     
     //maybe you can present an AlerViewController to prompt user some message
     
+    NSLog(@"没有权限");
+    
   }];
 }
 
