@@ -123,5 +123,11 @@
   
 }
 
+#pragma mark - 懒加载 localizedCollation Setter
+-(NSArray<NSArray *> *)handleContactObjects
+{
+  return [KYContactSortManager defaultHandleContactObject:self.contactObjects];
+}
+
 
 @end
