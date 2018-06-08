@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface KYViewController : UITableViewController
+@interface KYViewController : UIViewController
 
 @end

@@ -15,9 +15,9 @@
 +(NSArray<id<CNKeyDescriptor>> *)KYContactNameKeys
 {
     return @[
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 100000
-             CNContactPhoneticOrganizationNameKey,
-#endif
+//#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 100000
+//             CNContactPhoneticOrganizationNameKey,
+//#endif
              CNContactNamePrefixKey,
              CNContactGivenNameKey,
              CNContactMiddleNameKey,

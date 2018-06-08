@@ -26,6 +26,7 @@
 //负责请求联系人对象
 @property (nonatomic, strong) KYContactsManager * contactManager;
 
+
 @end
 
 @implementation KYViewController
@@ -79,10 +80,13 @@
 {
   //开始赋值
   self.contactObjects = contactObjects;
+  
+  NSLog(@"self.contactObjects::%@",self.contactObjects);
+  
   self.titles = [UILocalizedIndexedCollation currentCollation].sectionTitles;
   
   //刷新
-  [self.tableView reloadData];
+  //[self.tableView reloadData];
 }
 
 

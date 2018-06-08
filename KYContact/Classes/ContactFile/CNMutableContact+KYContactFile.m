@@ -31,11 +31,11 @@
     
     if (UIDevice.currentDevice.systemVersion.floatValue >= 10.0) {
         
-      if (@available(iOS 10_0, *)) {
-        self.phoneticOrganizationName = nameObject.phoneticOrganizationName;
-      } else {
-        // Fallback on earlier versions
-      }
+//      if (@available(iOS 10_0, *)) {
+//        self.phoneticOrganizationName = nameObject.phoneticOrganizationName;
+//      } else {
+//        // Fallback on earlier versions
+//      }
     }
 }
 

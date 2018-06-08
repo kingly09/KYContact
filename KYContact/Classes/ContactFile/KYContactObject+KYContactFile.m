@@ -62,7 +62,7 @@
     
     if (UIDevice.currentDevice.systemVersion.floatValue >= 10.0) {
         
-        self.phoneticOrganizationName = contact.phoneticOrganizationName;//公司(组织)的拼音或音标
+       // self.phoneticOrganizationName = contact.phoneticOrganizationName;//公司(组织)的拼音或音标
     }
 }
 
