@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KYContact'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'KYContact是基于AddressBook.framework和Contact.framework框架支持iOS 8.0以上的通讯录框架.'
   s.homepage         = 'https://github.com/kingly09/KYContact'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
