@@ -41,6 +41,16 @@
 }
 
 
+
+/**
+ 获得联系人自定义便利方法
+ 
+ @return 存放自定义键的便利方法
+ */
++ (NSArray <id <CNKeyDescriptor>> *)customContactKeys:(NSArray *)keys {
+  return keys;
+}
+
 +(NSArray <id<CNKeyDescriptor>> *)KYContactAllKeys
 {
     return @[

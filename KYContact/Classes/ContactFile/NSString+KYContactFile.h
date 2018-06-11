@@ -32,6 +32,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSArray <id <CNKeyDescriptor>> *)KYContactNamePhoneKeys;
 
 
+/**
+ 获得联系人自定义便利方法
+ 
+ @return 存放自定义键的便利方法
+ */
++ (NSArray <id <CNKeyDescriptor>> *)customContactKeys:(NSArray *)keys;
+
 
 /**
  获得所有联系人的所有键的便利方法
